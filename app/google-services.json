@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "999581362396",
+    "firebase_url": "https://cultivation-steps-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "cultivation-steps",
+    "storage_bucket": "cultivation-steps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999581362396:android:32aa5b8ec27692c08a2c19",
+        "android_client_info": {
+          "package_name": "com.example.agriguideai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm9eNIE7WuhLqsIegV38HHW05XopDT-JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999581362396:android:c8afea2d8b4a945c8a2c19",
+        "android_client_info": {
+          "package_name": "com.example.cultivation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm9eNIE7WuhLqsIegV38HHW05XopDT-JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

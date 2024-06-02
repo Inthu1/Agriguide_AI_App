@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    tools:context=".Steps">
+    <TextView
+        android:id="@+id/textculti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steps to cultivate"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <!-- First Navigation Bar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/gray_border"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/soilprepNavbar">
+
+        <TextView
+            android:id="@+id/navigation_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingBottom="5dp"
+            android:textColor="#1a8cff"
+            android:text=">"
+            android:textSize="40sp"
+            android:paddingRight="20sp"/>
+        <TextView
+            android:id="@+id/stage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="Soil Preparation"
+            android:textColor="#1a8cff"
+            android:textSize="22sp" />
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <!-- Second Navigation Bar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/gray_border"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:id="@+id/seedingNavbar">
+
+        <TextView
+            android:id="@+id/navigation_arrow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingBottom="5dp"
+            android:textColor="#1a8cff"
+            android:text=">"
+            android:textSize="40sp"
+            android:paddingRight="20sp"/>
+        <TextView
+            android:id="@+id/stage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="Sowing"
+            android:textColor="#1a8cff"
+            android:textSize="22sp" />
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <!-- Third Navigation Bar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/gray_border"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:id="@+id/irrigationNavbar">
+
+        <TextView
+            android:id="@+id/navigation_arrow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingBottom="5dp"
+            android:textColor="#1a8cff"
+            android:text=">"
+            android:textSize="40sp"
+            android:paddingRight="20sp"/>
+        <TextView
+            android:id="@+id/stage3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="Irrigation"
+            android:textColor="#1a8cff"
+            android:textSize="22sp" />
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <!-- Fourth Navigation Bar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/gray_border"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:id="@+id/fertilizationNavbar">
+
+        <TextView
+            android:id="@+id/navigation_arrow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingBottom="5dp"
+            android:textColor="#1a8cff"
+            android:text=">"
+            android:textSize="40sp"
+            android:paddingRight="20sp"/>
+        <TextView
+            android:id="@+id/stage4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="Fertilization"
+            android:textColor="#1a8cff"
+            android:textSize="22sp" />
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <!-- Fifth Navigation Bar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/gray_border"
+        android:layout_marginTop="6dp"
+        android:id="@+id/harvestingNavbar">
+
+        <TextView
+            android:id="@+id/navigation_arrow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:paddingBottom="5dp"
+            android:textColor="#1a8cff"
+            android:text=">"
+            android:textSize="40sp"
+            android:paddingRight="20sp"/>
+        <TextView
+            android:id="@+id/stage5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="Harvesting"
+            android:textColor="#1a8cff"
+            android:textSize="22sp" />
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+</LinearLayout>

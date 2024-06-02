@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Agriguideai"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Agriconnect.JobsApplied"
+            android:exported="false" />
+        <activity
+            android:name=".Agriconnect.JobPost"
+            android:exported="false" />
+        <activity
+            android:name=".Agriconnect.JobsPosted"
+            android:exported="false" />
+        <activity
+            android:name=".Agriconnect.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Agriconnect.WorkerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Agriconnect.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Agriconnect.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Agriconnect.agriconnectact"
+            android:exported="false" />
+        <activity
+            android:name=".DiseasePrediction.diseaseprediction"
+            android:exported="false" />
+        <activity
+            android:name=".FertilizerRecommend.fertilizeradvisor"
+            android:exported="false" />
+        <activity
+            android:name=".Harvesting"
+            android:exported="false" />
+        <activity
+            android:name=".Fertilization"
+            android:exported="false" />
+        <activity
+            android:name=".Irrigation"
+            android:exported="false" />
+        <activity
+            android:name=".Seeding"
+            android:exported="false" />
+        <activity
+            android:name=".SoilPrep"
+            android:exported="false" />
+        <activity
+            android:name=".Steps"
+            android:exported="false" />
+        <activity
+            android:name=".Cultivation"
+            android:exported="false" />
+        <activity
+            android:name=".CropRecommend.cropadvisor"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
